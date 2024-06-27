@@ -3,6 +3,9 @@ from string_calculator import StringCalculator
 
 
 class TestStringCalculator(unittest.TestCase):
+    """
+    Unit tests for the StringCalculator class.
+    """
 
     def setUp(self):
         self.calculator = StringCalculator()
